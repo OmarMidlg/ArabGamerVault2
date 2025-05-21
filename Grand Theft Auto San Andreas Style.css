@@ -1,0 +1,65 @@
+﻿body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121f3f; /* خلفية أزرق غامق */
+    color: #e0e7ff; /* لون نص فاتح */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #3a5bcc;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+    .gallery img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 0 10px #3a5bcc;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #5d85f0;
+        }
+
+.description {
+    background: #1e2a59;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: right;
+    color: #c9d1ff;
+}
+
+.btn-download {
+    display: inline-block;
+    background-color: #3a5bcc;
+    color: #fff;
+    padding: 12px 30px;
+    font-weight: bold;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0 0 15px #3a5bcc;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-download:hover {
+        background-color: #5d85f0;
+    }

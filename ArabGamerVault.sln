@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{91B4F53A-012A-49F0-A609-9E49480B3395}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{9B465B76-2FFD-450F-83FF-F814EBC6646A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rockstar Games", "Rockstar Games", "{61461D22-7399-417C-AA17-CB67AEF1A1E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grand Theft Auto San Andreas", "Grand Theft Auto San Andreas", "{F18D8F69-DAD2-41C6-990A-096692DBAEC8}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\omark\Downloads\Logo.png = C:\Users\omark\Downloads\Logo.png
+		C:\Users\omark\Downloads\Pic1.jpg = C:\Users\omark\Downloads\Pic1.jpg
+		C:\Users\omark\Downloads\Pic2.jpg = C:\Users\omark\Downloads\Pic2.jpg
+		C:\Users\omark\Downloads\Pic3.jpg = C:\Users\omark\Downloads\Pic3.jpg
+		C:\Users\omark\Downloads\Pic4.jpg = C:\Users\omark\Downloads\Pic4.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pages", "Pages", "{46784530-A241-47CE-B2C5-AE54BC91B975}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{B929FB81-EE88-46CE-8770-E713778DCF16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grand Theft Auto San Andreas", "Grand Theft Auto San Andreas", "{968FC261-FE51-4713-9F24-5768B4A659A9}"
+	ProjectSection(SolutionItems) = preProject
+		Grand Theft Auto San Andreas script.js = Grand Theft Auto San Andreas script.js
+		Grand Theft Auto San Andreas Style.css = Grand Theft Auto San Andreas Style.css
+		Grand Theft Auto San Andreas.html = Grand Theft Auto San Andreas.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Home", "Home", "{B24644CB-5958-4C64-9C57-A7BD8408B062}"
+	ProjectSection(SolutionItems) = preProject
+		home.js = home.js
+		home.css = home.css
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rockstar Games", "Rockstar Games", "{B2F58E1A-692A-4034-A001-1A1879FDC236}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assests", "Assests", "{10AF58C1-E95D-4E9C-9DA4-99E443369109}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91B4F53A-012A-49F0-A609-9E49480B3395} = {10AF58C1-E95D-4E9C-9DA4-99E443369109}
+		{9B465B76-2FFD-450F-83FF-F814EBC6646A} = {91B4F53A-012A-49F0-A609-9E49480B3395}
+		{61461D22-7399-417C-AA17-CB67AEF1A1E2} = {9B465B76-2FFD-450F-83FF-F814EBC6646A}
+		{F18D8F69-DAD2-41C6-990A-096692DBAEC8} = {61461D22-7399-417C-AA17-CB67AEF1A1E2}
+		{46784530-A241-47CE-B2C5-AE54BC91B975} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B929FB81-EE88-46CE-8770-E713778DCF16} = {46784530-A241-47CE-B2C5-AE54BC91B975}
+		{968FC261-FE51-4713-9F24-5768B4A659A9} = {B2F58E1A-692A-4034-A001-1A1879FDC236}
+		{B24644CB-5958-4C64-9C57-A7BD8408B062} = {46784530-A241-47CE-B2C5-AE54BC91B975}
+		{B2F58E1A-692A-4034-A001-1A1879FDC236} = {B929FB81-EE88-46CE-8770-E713778DCF16}
+		{10AF58C1-E95D-4E9C-9DA4-99E443369109} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4975DFD8-A14F-4BA1-B943-4F588925A5FE}
+	EndGlobalSection
+EndGlobal
